@@ -1,0 +1,27 @@
+Live Agricultural Commodity Price Tracker for Indian Farmers
+📖 Overview
+KisanPrice-CLI is an AgriTech tool designed to empower farmers by providing instant access to live grain prices (Mandi Bhav) across various Indian markets. By bringing transparency to crop pricing, this tool helps farmers decide the best time and location to sell their produce.
+
+✨ Key Features
+Real-time Data: Designed to integrate with the National Government Data Portal (Data.gov.in).
+
+Localized Insights: Tracks Minimum and Maximum prices for specific grains like Wheat, Paddy, and Maize.
+
+Low Bandwidth: A terminal-based interface that works even on slow 2G/3G connections in rural areas.
+
+🛠️ Tech Stack
+Language: Python 3.x
+
+Libraries: Requests (for API calls)
+
+Domain: AgriTech / Social Impact
+
+🚀 How to Run
+Install requirements:
+
+Bash
+pip install requests
+Run the tracker:
+
+Bash
+python mandi_live.py
